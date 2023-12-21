@@ -1,0 +1,79 @@
+\relax 
+\providecommand{\transparent@use}[1]{}
+\providecommand\babel@aux[2]{}
+\@nameuse{bbl@beforestart}
+\nicematrix@redefine@check@rerun 
+\abx@aux@refcontext{nty/global//global/global}
+\pgfsyspdfmark {pgfid1}{239206}{0}
+\providecommand \oddpage@label [2]{}
+\babel@aux{english}{}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{2}{}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Context}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1}Generating realistic matter field}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2}Machine Learning tackling the problem}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{GANs}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{DDPM}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{VAE}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3}Datasets specifications}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Quijote Simulations}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Datasets dimensions and transformations}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}DDPM neural Network}{4}{}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Theoretical background}{4}{}\protected@file@percent }
+\newlabel{eq:Loss}{{2.1}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Architecture}{4}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces layer dimensions\relax }}{4}{}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:Size}{{2.1}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Unet convolutional structure\relax }}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {III}Testing}{5}{}\protected@file@percent }
+\newlabel{fig:training}{{2.2a}{5}}
+\newlabel{sub@fig:training}{{a}{5}}
+\newlabel{fig:generated}{{2.2b}{5}}
+\newlabel{sub@fig:generated}{{b}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Overview of the NN data\relax }}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1}Loss function}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2}Physics likelihood}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Histograms}{5}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Histogran of intenties for both training and generated images, in red line the training images and in blue the generated images\relax }}{5}{}\protected@file@percent }
+\newlabel{fig:hist}{{2.3}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{Power spectrum}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces The blue fill is the standard deviation of the generated datasets, and the red one corresponds to the training image deviation. The grey shaded domain delimits the $k_{\text  {nyquist}}$ validity domain, due to the descretization of space. The psd leads to the same conclusion, the generated images and the training image have the same power spectrum, which strengthened the previous conclusion\relax }}{6}{}\protected@file@percent }
+\newlabel{fig:psd}{{2.4}{6}}
+\@writefile{lol}{\contentsline {lstlisting}{[}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3}Third order image analysis}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces \relax }}{6}{}\protected@file@percent }
+\newlabel{}{{2.5}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces \relax }}{7}{}\protected@file@percent }
+\newlabel{}{{2.6}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4}Non linear contrasting}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces transformations for multiple values of $a$, the extreme loglike behaviour at low $a$ is totally deforming the physics matter field. which should drastically lower the learning efficiency of the NN. For relatively high $a = 0.1$ we do nor increase a lot the filaments contrast as opposed to medium $a$ values, where the filamentary structure is clearly distinguishable, without deforming the physics field \ref  {}.\relax }}{7}{}\protected@file@percent }
+\newlabel{}{{2.7}{7}}
+\newlabel{fig:clustering}{{2.8a}{7}}
+\newlabel{sub@fig:clustering}{{a}{7}}
+\newlabel{fig:density}{{2.8b}{7}}
+\newlabel{sub@fig:density}{{b}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces In the Contrast transformations where the parameter $a$ is chosen to optimize the contrats given the previous normalization process. These functions allow us to shrink the inage domain after a critical value (\ref  {fig:clustering}), which should be choosen accordingly to threshold used in the clustering process. Indeed we wanna isolate the filamentary structures from the noisy background, which is not too small, otherwise we will isolate the noise, and not too big, otherwise we will not isolate the filaments. Given \ref  {fig:density} we can observe the migration of intensity distribution for low $a$, it means that a lot of noisy pixel have been strenghtened, which is not what we want. For relatively high $a \sim 0.3$ we do ont isoliate the filaments anymore, because the crticial intensity is much higher\relax }}{7}{}\protected@file@percent }
+\newlabel{}{{2.8}{7}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}GAN neural Network}{8}{}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Theoretical background}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {II}Architecture}{8}{}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.1}Python example}{8}{}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{./codes/train\textunderscore gan.py}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {III}Testing}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1}Results}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2}Loss function}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3}Physics likelihood}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Histograms}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Power spectrum}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Discussions}{11}{}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\gdef\svg@ink@ver@settings{{\m@ne }{inkscape}{\m@ne }}
+\abx@aux@read@bbl@mdfivesum{EE04F40F768DAEED26442158E95ABA61}
+\gdef \@abspage@last{12}

@@ -1,0 +1,31 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{2}{}%
+\contentsline {section}{\numberline {I}Context}{2}{}%
+\contentsline {subsection}{\numberline {1}Generating realistic matter field}{2}{}%
+\contentsline {subsection}{\numberline {2}Machine Learning tackling the problem}{2}{}%
+\contentsline {subsubsection}{GANs}{2}{}%
+\contentsline {subsubsection}{DDPM}{2}{}%
+\contentsline {subsubsection}{VAE}{3}{}%
+\contentsline {subsection}{\numberline {3}Datasets specifications}{3}{}%
+\contentsline {subsubsection}{Quijote Simulations}{3}{}%
+\contentsline {subsubsection}{Datasets dimensions and transformations}{3}{}%
+\contentsline {chapter}{\numberline {2}DDPM neural Network}{4}{}%
+\contentsline {section}{\numberline {I}Theoretical background}{4}{}%
+\contentsline {section}{\numberline {II}Architecture}{4}{}%
+\contentsline {section}{\numberline {III}Testing}{5}{}%
+\contentsline {subsection}{\numberline {1}Loss function}{5}{}%
+\contentsline {subsection}{\numberline {2}Physics likelihood}{5}{}%
+\contentsline {subsubsection}{Histograms}{5}{}%
+\contentsline {subsubsection}{Power spectrum}{6}{}%
+\contentsline {subsection}{\numberline {3}Third order image analysis}{6}{}%
+\contentsline {subsection}{\numberline {4}Non linear contrasting}{7}{}%
+\contentsline {chapter}{\numberline {3}GAN neural Network}{8}{}%
+\contentsline {section}{\numberline {I}Theoretical background}{8}{}%
+\contentsline {section}{\numberline {II}Architecture}{8}{}%
+\contentsline {section}{\numberline {III}Testing}{9}{}%
+\contentsline {subsection}{\numberline {1}Results}{9}{}%
+\contentsline {subsection}{\numberline {2}Loss function}{10}{}%
+\contentsline {subsection}{\numberline {3}Physics likelihood}{10}{}%
+\contentsline {subsubsection}{Histograms}{10}{}%
+\contentsline {subsubsection}{Power spectrum}{10}{}%
+\contentsline {chapter}{\numberline {4}Discussions}{11}{}%
